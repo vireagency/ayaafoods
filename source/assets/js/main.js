@@ -716,7 +716,7 @@ document.addEventListener("DOMContentLoaded", function() {
 	// Show modal every 15 seconds
 	setInterval(function() {
 	  modal.style.display = "block";
-	}, 12000);
+	}, 30000);
   
 	// When the user clicks on <span> (x), close the modal
 	span.onclick = function() {

@@ -9083,4 +9083,9 @@ ul.list-two li i {
   #subscribeForm button:hover {
 	background-color: #45a049;
   }
+
+.heading .title {
+	font-size: 25px;
+	font-weight: 900px;
+}
   
