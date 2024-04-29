@@ -1,10 +1,4 @@
-/* ===================================================================
-    
-    Author          : Valid Theme
-    Template Name   : Agrul - Organic Farm Agriculture Template
-    Version         : 1.0
-    
-* ================================================================= */
+
 (function($) {
 	"use strict";
 
@@ -294,6 +288,7 @@
 			direction: "horizontal",
 			loop: true,
 			autoplay: true,
+			speed: 12000,
 
 			// And if we need scrollbar
 			/*scrollbar: {
