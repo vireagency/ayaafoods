@@ -283,18 +283,36 @@
 		/* ==================================================
             # Testimonials Carousel
          ===============================================*/
-		const testimonialCarousel = new Swiper(".testimonial-carousel", {
+		//const testimonialCarousel = new Swiper(".testimonial-carousel", {
 			// Optional parameters
-			direction: "horizontal",
-			loop: true,
-			autoplay: true,
-			speed: 12000,
+		//	direction: "horizontal",
+		//	loop: true,
+			//autoplay: true,
+		//	speed: 12000,
 
 			// And if we need scrollbar
 			/*scrollbar: {
             el: '.swiper-scrollbar',
           },*/
-		});
+	//	});
+
+
+	const testimonialCarousel = new Swiper(".testimonial-carousel", {
+		// Optional parameters
+		direction: "horizontal",
+		loop: true,
+		autoplay: {
+		  delay: 12000, // Set delay to 12 seconds
+		  disableOnInteraction: false, // Continue autoplay even when user interacts with slider
+		},
+		speed: 1000, // Set speed to 1 second for smooth transition
+	  
+		// And if we need scrollbar
+		/*scrollbar: {
+			el: '.swiper-scrollbar',
+		  },*/
+	  });
+	  
 
 
 		/* ==================================================
